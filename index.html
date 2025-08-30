@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação Booking - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="header-and-hero-container">
+        <header class="main-header">
+            <div class="logo">Booking.com</div>
+            <nav class="top-nav">
+                <span>BRL</span>
+                <a href="#" class="help-icon"><i class="fa-solid fa-circle-question"></i></a>
+                <a href="#" class="flag-link"><img src="https://t-ec.bstatic.com/static/img/flags/24/gb.png" alt="Bandeira" class="flag-icon"></a>
+                <a href="#" class="nav-link">List your property</a>
+                <a href="#" class="btn btn-secondary">Register</a>
+                <a href="#" class="btn btn-secondary">Sign in</a>
+            </nav>
+        </header>
+
+        <nav class="main-nav">
+            <a href="#" class="nav-item active"><i class="fa-solid fa-bed"></i> Stays</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-plane"></i> Flights</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-car"></i> Car rental</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-star"></i> Attractions</a>
+            <a href="#" class="nav-item"><i class="fa-solid fa-taxi"></i> Airport taxis</a>
+        </nav>
+        
+        <main class="hero-section">
+            <div class="hero-content">
+                <h1>Find your next stay</h1>
+                <p>Search low prices on hotels, homes and much more...</p>
+            </div>
+        </main>
+    </div>
+
+    <div class="search-container">
+        <form class="search-form" action="resultados.html">
+            <div class="form-group input-destination">
+                <i class="fa-solid fa-bed"></i>
+                <input type="text" placeholder="Where are you going?">
+            </div>
+            <div class="form-group input-dates">
+                <i class="fa-solid fa-calendar-days"></i>
+                <input type="text" placeholder="Check-in date — Check-out date">
+            </div>
+            <div class="form-group input-guests">
+                <i class="fa-solid fa-user"></i>
+                <select>
+                    <option>2 adults · 0 children · 1 room</option>
+                    <option>1 adult · 0 children · 1 room</option>
+                    <option>2 adults · 1 child · 1 room</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-search">Search</button>
+        </form>
+        <div class="flight-search-option">
+            <input type="checkbox" id="search-flights">
+            <label for="search-flights">Search for flights</label>
+        </div>
+    </div>
+    
+    <section class="offers-section">
+        <h2>Offers</h2>
+        <p>Promotions, deals and special offers for you</p>
+        <div class="offers-grid">
+            <div class="offer-card large-card">
+                <div class="card-text">
+                    <p>Holiday rentals</p>
+                    <h3>Live the dream in a holiday home</h3>
+                    <p>Choose from houses, villas, chalets and more</p>
+                    <button>Book yours</button>
+                </div>
+            </div>
+            <div class="offer-card small-card">
+                 <div class="card-text">
+                    <h3>Quick escape, quality time</h3>
+                    <p>Save up to 20% with a Getaway Deal</p>
+                    <button>Save on stays</button>
+                </div>
+                <img src="assets/offers2.jpeg" alt="Couple">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

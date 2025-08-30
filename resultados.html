@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação Booking - Resultados</title>
+    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="style_resultados.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Booking.com</div>
+        <nav class="top-nav">
+            <span>BRL</span>
+            <img src="https://t-ec.bstatic.com/static/img/flags/24/gb.png" alt="Bandeira" class="flag-icon">
+            <a href="#" class="nav-link">List your property</a>
+            <a href="#" class="btn btn-secondary">Register</a>
+            <a href="#" class="btn btn-secondary">Sign in</a>
+        </nav>
+    </header>
+    <nav class="main-nav">
+        <a href="#" class="nav-item active"><i class="fa-solid fa-bed"></i> Stays</a>
+        <a href="#" class="nav-item"><i class="fa-solid fa-plane"></i> Flights</a>
+        <a href="#" class="nav-item"><i class="fa-solid fa-car"></i> Car rental</a>
+        <a href="#" class="nav-item"><i class="fa-solid fa-star"></i> Attractions</a>
+        <a href="#" class="nav-item"><i class="fa-solid fa-taxi"></i> Airport taxis</a>
+    </nav>
+
+    <div class="search-bar-results">
+        <input type="text" value="São Paulo">
+        <input type="text" value="Mon 1 Sept - Wed 10 Sept">
+        <input type="text" value="2 adults - 0 children - 1 room">
+        <button class="btn-search-small">Search</button>
+    </div>
+
+    <div class="page-container">
+        <aside class="filters-column">
+            <div class="map-widget">
+                <p>São Paulo</p>
+                <button>Show on map</button>
+            </div>
+            <div class="filter-group">
+                <h3>Filter by:</h3>
+                <label>Your budget (per night)</label>
+                <input type="range" min="30" max="800" value="400">
+                <span>R$ 30 - R$ 800+</span>
+            </div>
+             <div class="filter-group">
+                <h3>Popular filters</h3>
+                <label><input type="checkbox" checked> Hotel or similar</label>
+                <label><input type="checkbox"> 5 stars</label>
+                <label><input type="checkbox"> Kitchen</label>
+                <label><input type="checkbox"> No prepayment</label>
+            </div>
+        </aside>
+
+        <main class="results-column">
+            <h2>São Paulo: 2,023 properties found</h2>
+            
+            <div class="result-card">
+                    <img src="assets/fotohotel.webp" alt="Foto do Hotel">
+                    <div class="card-content">
+                    <h3>Gran Vitrali Moema For You - Apê com 1Quarto e Varanda</h3>
+                    <p class="location">Moema, São Paulo</p>
+                    <div class="details">
+                        <p>One-Bedroom Apartment</p>
+                        <p>Entire apartment • 1 bedroom • 1 bathroom • 41 m²</p>
+                        <p>1 large double bed</p>
+                    </div>
+                </div>
+                <div class="card-pricing">
+                    <p>9 nights, 2 adults</p>
+                    <span class="price">R$ 2,937</span>
+                    <p class="taxes">+R$ 165 taxes and charges</p>
+                    <button class="btn-see">See availability</button>
+                </div>
+            </div>
+
+            <div class="genius-banner">
+                <div>
+                    <h3>Sign in, save money</h3>
+                    <p>Unlock member-only discounts in São Paulo</p>
+                    <button class="btn-secondary">Sign in</button>
+                    <button class="btn-register">Register</button>
+                </div>
+                <img src="https://t-static.bstatic.com/static/img/genius-globe-with-badge_17.39c4241d7350c4250521364a9c043e06.svg" alt="Genius">
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* Barra de busca compacta da página de resultados */
+.search-bar-results {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    gap: 5px;
+}
+.search-bar-results input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn-search-small {
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Container principal da página com as duas colunas */
+.page-container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Coluna da Esquerda: Filtros */
+.filters-column {
+    width: 25%;
+}
+.map-widget, .filter-group {
+    background-color: #febb02;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.filter-group {
+    background-color: #eaf3ff;
+}
+.filter-group h3 {
+    margin-top: 0;
+}
+.filter-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Coluna da Direita: Resultados */
+.results-column {
+    width: 75%;
+}
+
+.result-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.result-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.card-content {
+    flex-grow: 1; /* Faz esta div ocupar o espaço restante */
+}
+.card-content h3 {
+    color: #0071c2;
+    margin-top: 0;
+}
+.card-pricing {
+    text-align: right;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.taxes {
+    font-size: 12px;
+    color: #555;
+}
+.btn-see {
+    background-color: #0071c2;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.genius-banner {
+    background-color: #003580;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-register {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
