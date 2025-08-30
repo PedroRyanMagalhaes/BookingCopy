@@ -243,8 +243,8 @@ body {
     font-size: 20px;
 }
 .small-card button {
-    background-color: #eaf3ff;
-    color: #0071c2;
+    background-color: #0071c2;
+    color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 4px;
